@@ -4,10 +4,7 @@
     "description": "Binance API Class and examples of how to use the API.",
     "keywords": ["Binance","cryptocurrency","WebSocket"],
     "license": "MIT",
-    "repositories": [ {
-            "type": "vcs",
-            "url": "https://github.com/baitercel/binance-api-php"
-    }],
+	"homepage": "https://github.com/larislackers/php-binance",
     "require": {
         "php": ">=5.6"
     },
