@@ -1,5 +1,6 @@
 {
     "name": "baitercel/binance-api-php",
+	"version": "1.0.1",
     "description": "Binance API Class and examples of how to use the API.",
     "keywords": ["Binance","cryptocurrency","WebSocket"],
     "license": "MIT",
