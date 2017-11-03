@@ -1,0 +1,22 @@
+{
+    "name": "baitercel/binance-api-php",
+    "description": "Binance API Class and examples of how to use the API.",
+    "keywords": ["Binance","cryptocurrency","WebSocket"],
+    "license": "MIT",
+    "repositories": [ {
+            "type": "vcs",
+            "url": "https://github.com/baitercel/binance-api-php"
+    }],
+    "require": {
+        "php": ">=5.6",
+    },
+    "config": {
+    	"optimize-autoloader": true,
+        "minimum-stability": "dev"
+    },
+    "autoload": {
+        "classmap": [
+          "BinanceClass.php"
+        ]
+    }
+}
