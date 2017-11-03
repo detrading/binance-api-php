@@ -1,6 +1,13 @@
 # binance-api-php
 Binance API  Class and examples of how to use the API.
 
+
+#### Install
+
+```php
+composer require baitercel/binance-api-php dev-master
+
+
 #### Getting started
 ```php
 <?php
