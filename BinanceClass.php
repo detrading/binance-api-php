@@ -25,6 +25,11 @@ class Binance
     {
         return $this->signedRequest("v3/order", ["symbol" => $symbol, "orderId" => $orderid], "DELETE");
     }
+	
+	public function cancelAllOrders($symbol, $orderid)
+    {
+        return $this->signedRequest("v3/openOrders", ["symbol" => $symbol, "orderId" => $orderid], "DELETE");
+    }
 
     public function orderStatus($symbol, $orderid)
     {
