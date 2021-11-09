@@ -1,6 +1,13 @@
 # binance-api-php
 Binance API  Class and examples of how to use the API.
 
+####Added by DETRADING
+#### Cancel all Orders for a symbol
+```php
+$response = $api->cancelAllOrders("HNTBTC", $orderid);
+print_r($response);
+```
+
 
 #### Install
 
@@ -27,7 +34,7 @@ echo "Price of BNB: {$ticker['BNBBTC']} BTC.\n";
 $balances = $api->balances($ticker);
 print_r($balances);
 echo "BTC owned: ".$balances['BTC']['available']."\n";
-echo "ETH owned: ".$balances['ETH']['available']."\n";
+echo "HNT owned: ".$balances['HNT']['available']."\n";
 echo "Estimated Value: ".$api->btc_value." BTC\n";
 ```
 
@@ -67,7 +74,7 @@ print_r($trades);
 
 #### Get Market Depth
 ```php
-$depth = $api->depth("ETHBTC");
+$depth = $api->depth("HNTBTC");
 print_r($depth);
 ```
 
@@ -80,13 +87,13 @@ print_r($openorders);
 #### Get Order Status
 ```php
 $orderid = "7610385";
-$orderstatus = $api->orderStatus("ETHBTC", $orderid);
+$orderstatus = $api->orderStatus("HNTBTC", $orderid);
 print_r($orderstatus);
 ```
 
 #### Cancel an Order
 ```php
-$response = $api->cancel("ETHBTC", $orderid);
+$response = $api->cancel("HNTBTC", $orderid);
 print_r($response);
 ```
 
