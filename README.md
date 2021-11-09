@@ -1,8 +1,7 @@
 # binance-api-php
 Binance API  Class and examples of how to use the API.
 
-####Added by DETRADING
-#### Cancel all Orders for a symbol
+#### added by DETRADING | Cancel all Orders for a symbol
 ```php
 $response = $api->cancelAllOrders("HNTBTC", $orderid);
 print_r($response);
