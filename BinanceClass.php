@@ -3,7 +3,7 @@
 class Binance
 {
     public $btc_value = 0.00;
-    protected $base = "https://www.binance.com/api/", $api_key, $api_secret;
+    protected $base = "https://www.binance.us/api/", $api_key, $api_secret;
 
     public function __construct($api_key, $api_secret)
     {

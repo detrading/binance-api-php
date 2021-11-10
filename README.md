@@ -1,5 +1,5 @@
-# binance-api-php
-Binance API  Class and examples of how to use the API.
+#phpBinanceAPI_Improved
+Binance API  Class and examples of how to use the API. 
 
 #### added by DETRADING | Cancel all Orders for a symbol
 ```php
@@ -11,7 +11,7 @@ print_r($response);
 #### Install
 
 ```php
-composer require baitercel/binance-api-php dev-master
+composer require detrading/binance-api-php dev-master
 ```
 
 #### Getting started
